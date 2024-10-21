@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Roboto Slab", serif;
+}
+.grn{
+    display: grid;
+    place-items: center;
+}
+.green-container{
+    background-color: #09a223;
+    clip-path: polygon(0 0, 100% 0%, 95% 100%, 5% 100%);
+    color: white;
+    display: flex;
+    padding: 20px;
+    width: 80%;
+    height: 10px;
+    justify-content: center;
+    align-items: center;
+}
+.exp{
+    margin-left: 80px;
+}
+.exp p{
+    font-size: 12.5px;
+}
+.contact{
+    display: flex;
+    margin-left: 250px;
+    gap:30px;
+}
+.contact p{
+    font-size: 12.5px;
+}
+.icon{
+    display: flex;
+    gap:10px;
+}
+.i{
+    margin-top: 3px;
+    font-size: 12.5px;
+}
+
+/* 
+LOGO SMART EYE NAVIGATION */
+.header{
+    width: 100vw;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}
+.logo-container{
+    display: flex;
+    padding: 20px;
+    justify-content: space-around;
+    align-items: center;
+}
+.anchor-contact{
+   margin-left: 100px;
+}
+
+.anchor-contact a{
+    text-decoration: none;
+    gap:80px;
+    margin: 20px;
+    color: black;
+   
+}
+/* COMPLETE SOLUTION BG IMG */
+
+.template-container{
+    background-image: url(bg-man.webp);
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    width: 100% 100%;
+    height: 400px;
+    position: relative;
+    z-index: -10;
+    padding-top: 20px;
+}
+.content{
+   
+    margin-left: 500px;
+    width:500px;
+    color: #09a223;
+   
+}
+.top{
+    margin-top: 20px;
+}
+.p{
+    margin-top:20px; 
+    font-size: 12.5px;
+    color: #888;
+}
+div .button{
+    margin-left: 500px;
+    margin-bottom:80px;
+    margin-top: 20px;
+}
+.btn{
+    background-color: #09a223;
+    color: white;
+    padding: 10px;
+    border-radius: 20px;
+    border: none;
+}
+
+     /* MAIN IMAGE */
+.im{
+    top:15px;
+    position: absolute;
+    margin-bottom: 900px;
+    height: 400px;
+    margin-left: 200px;
+}
+.setting{ grid-template-rows: 4fr;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color:white;
+    padding: 20px;
+    position: absolute;
+    top:30px;
+}
+
+/* TECHNOLOGY  */
+.tech{
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px, rgba(0, 0, 0, 0.23) 0px 3px 6px;
+    z-index: 30;  
+}
+.technology{
+    background-color: white;
+    height: 100px;
+    display: grid;
+    place-items: center;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:5px; 
+   
+}
+.grid{
+    padding: 10px;
+    display: flex;
+    text-align: justify;
+    align-items: center;
+    justify-content: center;
+  
+    margin-left: 50px;
+    font-size: 15px;
+    gap:20px;
+}
+.grid i{
+    background-color:#09a223;
+    width: 20px;
+    color: white;
+    padding: 6px;
+    border-radius: 50%;
+    text-align: center;
+    
+}
+
+.footer{
+    background-color: rgb(227, 227, 228);
+    padding: 30px;
+    padding-left:200px;
+    z-index: -30;
+    position: relative;
+}
+
+.para p{
+    width: 600px;
+    text-align: justify;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.grp img{
+    position: absolute;
+    height: 190px;
+    top: 725px;
+    left: 830px;
+    border: solid 5px white;
+    top: 40px;
+}
+.setting2{
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    background-color:white;
+    padding: 20px;
+    position: absolute;
+    left: 0;
+    top:40px;
+}
